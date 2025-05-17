@@ -1,0 +1,26 @@
+-- Başlangıçta bir sayı ata
+sayi <- 10;
+
+-- Eğer sayı 5'ten büyükse, daire çiz
+eger sayi > 5
+    daire_ciz 100 200 50
+aksi
+    dondur sayi;
+
+-- Sonsuz döngü örneği
+dongu sayi < 20 iken
+    sayi +<- 1;
+    daire_ciz 50 50 10;
+neki
+
+-- Fonksiyon tanımı
+fonk topla a b:
+    sonuc <- a + b;
+    dondur sonuc;
+
+-- Fonksiyon çağırma
+knof topla 5 10;
+
+-- Kullanıcı yukarı tuşa basarsa bir daire çiz
+eger tus_basildi TUS_YUKARI
+    daire_ciz 200 100 30;
